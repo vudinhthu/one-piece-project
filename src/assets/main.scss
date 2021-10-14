@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import '@material-tailwind/react/tailwind.css';
+
+body {
+    @apply font-sans bg-gray-100;
+}
+.header {
+    @apply px-4 py-2 bg-white text-black;
+    .logo {
+        @apply font-rosario font-bold text-xl text-center;
+    }
+}
